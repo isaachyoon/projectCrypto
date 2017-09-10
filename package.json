@@ -1,0 +1,27 @@
+{
+  "name": "projectcrypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaachyoon/projectCrypto.git"
+  },
+  "author": "Isaac Yoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaachyoon/projectCrypto/issues"
+  },
+  "homepage": "https://github.com/isaachyoon/projectCrypto#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
